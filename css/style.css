@@ -1,0 +1,59 @@
+/* Reset */
+h1,h2,h3,h4,p,ul,li,a,body,html{
+	margin:0;
+	padding: 0;
+	
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* Body & general */
+
+html{
+    width: 100%;
+}
+body{
+	width:100%;
+	background: rgb(216, 213, 213); 
+    font-family: 'Open Sans', sans-serif;
+}
+
+div{
+    width: 70%;
+    margin: 0 auto;
+}
+div h1{
+    margin-top: 5%;
+}
+div form{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+div h2{
+    line-height: 40px;
+}
+main{
+    background: #f1f1f1;
+    box-sizing: border-box;
+    padding: 5%;
+}
+p{
+    line-height: 30px;
+}
+em{
+    color: #414f40;
+}
+span{
+    color: #4e2624;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+footer{
+    margin-top: 5%;
+    text-align: center;
+    color: coral;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
